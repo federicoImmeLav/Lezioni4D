@@ -1,0 +1,64 @@
+/* ---------------------------------- HEADER BASE ---------------------------------- */
+#headerBase {
+    background-color: blue;
+    height: 10vh; /* misura proporzionale all'altezza della schermata */  
+    display: flex; 
+    /* per disporre orizzontalmente si usa justify content */
+    justify-content: center;
+    /* per disporre verticalmente si usa align items */
+    align-items: center;
+}
+#logo {
+    height: 5vh;
+}
+
+/* -------------------------------- HEADER PULSANTI -------------------------------- */
+#headerPulsanti {
+    background-color: coral;
+    height: 10vh;
+    display: flex;
+    /* allineo centrale verticalmente */
+    align-items: center;
+    /* allineo distribuiti equamente in orizzontale */
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+/* -------------------------------- HEADER MENU -------------------------------- */
+#headerMenu {
+    background-color: thistle;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu {
+    background-color: thistle;
+    margin-top:-20;
+    display: none;
+}
+
+ul {
+    /* tolgo i puntini alla lista */
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    /* centro i testi */
+    text-align: center;
+}
+
+/* -------------------------------- COMPONENTI -------------------------------- */
+.pulsante {
+    /* spazio il bottone per renderlo più carino */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    /* stondo i bordi */
+    border-radius: 30px;
+}

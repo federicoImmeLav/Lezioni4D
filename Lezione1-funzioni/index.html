@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <h1>Calcolatrice della 4D</h1>
+
+        <h4>Inserisci il primo numero</h4>
+        <!-- Campo di input nel quale posso scrivere, metto un id così posso chiamarli con js -->
+        <input id="primoNumero" type="number">
+
+        <h4>Inserisci il secondo numero</h4>
+        <!-- Campo di input nel quale posso scrivere, metto un id così posso chiamarli con js -->
+        <input id="secondoNumero" type="number">
+
+        <!-- Metto il primo bottone + con la funzione onclick -->
+        <button onclick="somma()">+</button>
+        <button onclick="sottrazione()">-</button>
+        <button onclick="moltiplicazione()">x</button>
+        <button onclick="divisione()">/</button>
+
+        <!-- creo la sezione con i pulsanti per usare una funzione sola con argomenti diversi -->
+        <h3>Pulsanti alternativi</h3>
+        <button onclick="operazione(somma)">+</button>
+        <button onclick="operazione(sottrazione)">-</button>
+        <button onclick="operazione(moltiplicazione)">x</button>
+        <button onclick="operazione(divisione)">/</button>
+
+        <!-- Creiamo il bel riquadro per il risultato -->
+        <div id="belRiquadro"></div>
+
+
+        <div id="quadrato"></div>
+
+        <!-- il parametro per cambiare il colore va scritto tra '' -->
+        <button onclick="cambiaColore('green', '50%')">Verde</button>
+        <button onclick="cambiaColore('blue', '0')">Blu</button>
+
+        <script src="./script.js"></script>
+    </body>
+</html>

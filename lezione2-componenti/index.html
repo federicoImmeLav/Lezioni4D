@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./style.css"> <!-- link al css -->
+    </head>
+    <body>
+        <!-- primo header stile base -->
+        <header id="headerBase"> 
+            <!-- carico il logo come immagine -->
+            <img id="logo" src="./img/logo.png" alt="logo" > 
+        </header>
+
+        <!-- secondo header con pulsanti -->
+        <header id="headerPulsanti">
+            <img id="logo" src="./img/logo.png" alt="logo" > 
+            <div>
+                <button class="pulsante">Login</button>
+                <button class="pulsante">Registrati</button>
+            </div>
+        </header>
+
+        <!-- terzo header con menu -->
+        <header id="headerMenu">
+            <button class="pulsante" onclick="appariMenu()">Menu</button>
+        </header>  
+        <!-- creo div del menu che appare e scompare -->
+        <div id="menu">
+            <!-- creo la lista degli elementi del menu -->
+            <ul>
+                <li>Elemento1</li>
+                <li>Elemento2</li>
+                <li>Elemento3</li>
+                <li>Elemento4</li>
+            </ul>   
+        </div>
+
+
+        <button class="pulsante">Pulsante test</button>
+
+         <script src="./script.js"></script> <!-- link al javascript -->
+    </body>
+</html>
