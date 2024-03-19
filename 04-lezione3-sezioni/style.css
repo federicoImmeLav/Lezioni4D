@@ -1,0 +1,42 @@
+/*-----------------------------------------------------SEZIONE IMMAGINE-----------------------------------------------------*/
+/* impostiamo l'immagine di sfondo della prima sezione */
+#sezioneImmagine {
+  height: 100vh;  /* altezza di tutta la pagina */
+  background-image: url("./img/sfondo.jpg"); /* comando per impostare lo sfondo */
+  background-repeat: no-repeat; /*immagine non si ripete*/
+  background-size: cover; /* immagine grande tutto lo spazio che ha a disposizione*/
+  /* proprietà per posizionare il titolo in mezzo */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*-----------------------------------------------------SEZIONE ACCORDION-----------------------------------------------------*/
+/* imposto lo stile dell'accordion */
+.accordion {
+    width: 1000px;
+    margin: 50px;
+    background-color: bisque;
+    padding: 45px;
+}
+
+/*mettere due classi una a fianco all'altra ne assegna la stessa proprietà*/
+/* position relative serve a poter muovere i nostri elementi */
+.accordion .contenitore {
+    position: relative;
+}
+.accordion .etichetta {
+    position: relative;
+    cursor: pointer;
+}
+/* impostiamo la classe per nascondere il contenuto */
+.accordion .contenuto {
+    position:relative;
+    height: 0; /*schiaccio la sezione*/
+    overflow: hidden; /*nascondo la sezione*/
+    transition: 0.5s;
+}
+/* imposto altezza con un valore quando si accende la classe active*/
+.accordion .contenitore.active .contenuto {
+    height: 200px;
+}
