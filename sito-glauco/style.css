@@ -1,0 +1,60 @@
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    /* tolgo il bordo */
+    border: none;
+    /* tolgo il colore di sfondo */
+    background-color: transparent;
+    font-size: 20px;
+}
+
+/* imposto il menu di destra largo metà della pagina */
+#headerDx {
+    width: 50%;
+    /* dispongo i pulsanti */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#primaSezione {
+    background-color: bisque;
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* imposto immagine di sfondo */
+#immagineSx {
+    background-image: url("./img/glauco.png");
+    height: 100%;
+    /*occupo tutto lo spazio*/
+    width: 50%;
+    /*occupo la metà*/
+    background-size: cover;
+    /*occupo tutto lo spazio a disposizione*/
+    background-repeat: no-repeat;
+}
+
+#testoDx {
+    padding: 150px;
+    width: 50%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    height: 40vh;
+    padding-top: 100px;
+}
+
+#email {
+    width: 50%;
+}
+
+#info {
+    width: 50%;
+}
+
