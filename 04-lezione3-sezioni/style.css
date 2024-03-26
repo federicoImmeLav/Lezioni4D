@@ -39,4 +39,63 @@
 /* imposto altezza con un valore quando si accende la classe active*/
 .accordion .contenitore.active .contenuto {
     height: 200px;
+} 
+
+/*-----------------------------------------------------SEZIONE TRE COLONNE-----------------------------------------------------*/
+
+/* imposto le dimensioni della sezione  */
+#treColonne {
+    height: 60vh;
+    /* display flex serve a poter impostare più di una colonna  */
+    display: flex;
+    justify-content: space-between;
 }
+
+#colonna {
+    /* imposto la larghezza come un terzo della pagina  */
+    width: 33%;
+    background-color: peachpuff;
+}
+
+
+/*-----------------------------------------------------SEZIONE CARD-----------------------------------------------------*/
+#sezioneCard {
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+#card {
+    border: 2px solid rgb(198, 198, 198);
+    width: 20%;
+    /* aggiungo dello spazio che mi fa da margine  */
+    padding: 15px;  
+}
+
+/* effetto all passaggio del mouse sopra  */
+#card:hover {
+    box-shadow: 3px 3px rgb(198, 198, 198);
+}
+
+#imgCard {
+    background-image: url("./img/sfondo.jpg");
+    width: 100%;
+    height: 50%;
+    background-repeat: no-repeat; /*immagine non si ripete*/
+    background-size: cover; /* immagine grande tutto lo spazio che ha a disposizione*/
+}
+
+#testoCard {
+    text-align: center; /*centro il testo*/
+}
+
+#btnCard {
+    text-align: center; /*centro il botton*/
+}
+
+#bottoneCard {
+    /* il primo indica top e bottom, il seconod indica dx e sx  */
+    padding: 20px 70px;
+
+}
+
