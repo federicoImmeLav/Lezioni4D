@@ -1,0 +1,44 @@
+header {
+   display: flex;
+   height: 5vh;
+   align-items: center; /* centro in verticale */
+   justify-content: space-between; /* dispongo in orizzontale */
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+img {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#logoSx {
+    display: flex;
+    align-items: center;
+}
+
+#barraRicerca {
+    display: flex;
+    align-items: center;
+}
+
+#menu {
+    width: 10%;
+    height: 95vh;
+    display: none;
+}
+
+ul {
+    padding: 20px;
+}
+
+li {
+    list-style-type: none;
+    height: 40px;
+}
+
+#tu {
+    font-weight: 600;
+}
