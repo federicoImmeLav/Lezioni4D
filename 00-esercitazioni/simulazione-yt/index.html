@@ -1,26 +1,29 @@
 <html>
-    <head>
-        <link rel="stylesheet" href="./style.css">
-    </head>
-    <body>
-         <header>
-            <div id="logoSx">
-                <img src="./img/burger.png" alt="" width="30" onclick="appariMenu()">
-                <img src="./img/yt.png" alt="" width="70">
-            </div>
 
-            <div id="barraRicerca">
-                <input id="search" type="text">
-                <img src="./img/lens.png" alt="" width="40">
-                <img src="./img/mic.png" alt="" width="50">
-            </div>
+<head>
+    <link rel="stylesheet" href="./style.css">
+</head>
 
-            <div id="profilo">
-                <img src="./img/camera.png" alt="" width="50">
-            </div>
-         </header> 
-         
-         <div id="menu">
+<body>
+    <header>
+        <div id="logoSx">
+            <img src="./img/burger.png" alt="" width="30" onclick="appariMenu()">
+            <img src="./img/yt.png" alt="" width="70">
+        </div>
+
+        <div id="barraRicerca">
+            <input id="search" type="text">
+            <img src="./img/lens.png" alt="" width="40">
+            <img src="./img/mic.png" alt="" width="50">
+        </div>
+
+        <div id="profilo">
+            <img src="./img/camera.png" alt="" width="50">
+        </div>
+    </header>
+
+    <div id="home">
+        <div id="menu">
             <ul>
                 <li>Home</li>
                 <li>Short</li>
@@ -32,8 +35,18 @@
                 <li>Guarda più tardi</li>
                 <li>Video piaciuti</li>
             </ul>
-         </div>
+        </div>
 
-        <script src="./script.js"></script>
-    </body>
+        <section id="filtri">
+            <span id="label">Tutti</span>
+            <span id="label">Giochi</span>
+            <span id="label">Musica</span>
+        </section>
+
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+
 </html>

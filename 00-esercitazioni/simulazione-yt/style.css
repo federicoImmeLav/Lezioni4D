@@ -42,3 +42,35 @@ li {
 #tu {
     font-weight: 600;
 }
+
+
+#label {
+    background-color: lightgray;
+    border-radius: 3px;
+    padding: 4px 10px;
+    font-weight: 600;
+    font-size: 13px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/* hover serve per passaggio sopra con il mouse  */
+#label:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+
+/* per animazione al click si usa :active  */
+#label:active {
+    background-color: black;
+    color: white;
+}
+
+#home {
+    display: flex;
+}
+
+#filtri {
+    margin-top: 20px;
+}
+
