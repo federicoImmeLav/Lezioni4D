@@ -10,3 +10,12 @@ function appariMenu() {
         a = 0 ; 
     } 
 }
+
+
+function creaVideo() {
+    let contenitore = document.createElement("div");
+    contenitore.setAttribute('id', 'contenitoreVideo');
+    console.log(contenitore);
+}
+
+creaVideo();
