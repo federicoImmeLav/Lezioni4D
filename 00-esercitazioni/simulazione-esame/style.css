@@ -1,0 +1,29 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    height: 5vh;/*imposto una altezza all'elemento*/
+    align-items: center; /*allineo al centro*/
+}
+
+#bottone {
+    background-color: black; /*colore di sfondo*/
+    color: white; /*colore del testo*/
+    padding: 15px 10px; /*primo numero è sopra e sotto, il secondo è per dx e sx*/
+    border-radius: 5px; /*stondo gli spigoli*/
+}
+
+#bottone:hover {
+    cursor: pointer;
+}
+
+#home {
+    height: 70vh; /*imposto l'altezza della sezione*/
+    display: flex;
+    justify-content: center;
+    align-items: center; /*centro tutto il contenuto*/
+    text-align: center; /*allineo il testo al centro*/
+}
+
+#testi {
+    width: 50%;
+}
