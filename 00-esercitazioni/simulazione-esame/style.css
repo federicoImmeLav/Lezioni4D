@@ -27,3 +27,51 @@ header {
 #testi {
     width: 50%;
 }
+
+#sezioneDue {
+    display: flex;
+    justify-content: space-around;
+}
+
+#paragrafi {
+    width: 50%;
+}
+
+#blocchetti {
+    display: flex;
+}
+
+#blocco {
+    width: 50%;
+}
+ 
+#elenchi {
+    display: flex;
+    padding: 40px;
+}
+
+#descrizione {
+    width: 60%;
+}
+
+#elenco {
+    width: 20%;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#quartetto {
+    display: flex;
+    padding: 40px;
+}
+
+#quarti {
+    width: 25%;
+}
