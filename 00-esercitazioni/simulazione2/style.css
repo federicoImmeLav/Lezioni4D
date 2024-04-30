@@ -1,0 +1,47 @@
+
+/* imposto header in linea uno di fianco all'altro */
+header {
+    display: flex;
+    justify-content: space-around; /*allineamento orizzontale*/
+    align-items: center; /*allineamento verticale*/
+}
+
+/* selezioni gli span che stanno dentro a menu  */
+#menu span {
+    margin-left: 30px;
+}
+
+button {
+    background-color: darkblue;
+    color: white;
+    border: none;
+    /* il primo valore è per sopra e sotto, il secondo per destra e sinistra */
+    padding: 5px 50px;
+    border-radius: 3px;  /* stondo gli angoli */
+}
+
+#home {
+    display: flex;
+    align-items: center;
+    height: 90vh;
+    /* imposto immagine come sfondo del div  */
+    background-image: url('./img/designer_1.png');
+    background-repeat: no-repeat;
+    background-position: right; 
+    background-size: contain;
+}
+
+/* imposto dimensioni del contenitore del testo  */
+#contenutoHome {
+    padding-left: 300px;
+    width: 35%;
+}
+
+/* faccio il pulsante inverso */
+#pulsanteLight {
+    color: darkblue;
+    border: 2px solid darkblue;
+    background-color: white;
+    padding: 3px 48px; 
+    /* tolgo 2px dal padding per pareggiare il border  */
+}
