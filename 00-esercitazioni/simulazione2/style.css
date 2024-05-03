@@ -45,3 +45,31 @@ button {
     padding: 3px 48px; 
     /* tolgo 2px dal padding per pareggiare il border  */
 }
+
+
+#fascia {
+    display: flex;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+#immagineSx, #testiDx {
+    width: 50%;
+}
+
+#testoCentrato {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#centra {
+    width: 50%;
+    text-align: center;
+}
+
+#footerSopra {
+    display: flex;
+    justify-content: space-between;
+}
