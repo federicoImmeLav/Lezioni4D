@@ -1,0 +1,50 @@
+header {
+    display: flex; /* per mettere il contenuto in fila  */
+    justify-content: space-around;  /* per spaziare in orizzontale */
+    background-color: peachpuff; 
+    padding: 50px; /*spazio per dare un po' di aria al tutto*/
+}
+
+#sezGrande {
+    height: 40vh; /*vh sta per una proporzione dello schermo*/
+    background-color: azure;
+    display: flex;
+}
+
+#metaGrande {
+    border: 1px solid black;
+    width: 50%; /* imposto la larghezza pari a metà del loro contenitore  */
+    margin: 10px; /*spazio per dare un po' di aria al tutto*/
+    display: flex; /*il contenuto deve stare in fila*/
+}
+
+#metaPiccolo {
+    background-color: blue;
+    width: 50%; /* imposto la larghezza pari a metà del loro contenitore  */
+    margin: 10px; /*spazio per dare un po' di aria al tutto*/
+    display: flex; /*il contenuto deve stare in fila*/
+}
+
+#bottoni {
+    height: 20vh;
+    margin-top: 30px;
+}
+
+#bottone {
+    background-color: blueviolet;
+    padding: 20px; /*aria intorno al bottone*/
+    border-radius: 5px; /*stondo gli spigoli*/
+}
+
+/* per mettere animazione quando passa il mouse si usa hover  */
+#bottone:hover {
+    background-color: darkblue;
+    color: white; /*colore del testo*/
+    cursor: pointer; /*cursore che diventa puntatore*/
+}
+
+/* tolgo la sottolineatura a tuttti i link  */
+a {
+    text-decoration: none;
+}
+
