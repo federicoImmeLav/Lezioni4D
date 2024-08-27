@@ -1,0 +1,86 @@
+body {
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+span {
+    margin: 30px;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+
+.contatto {
+    color: orange;
+}
+
+.hero {
+    height: 80vh;
+    background-image: url("./img/img3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.titolo {
+    font-size: 3rem;
+    margin-left: 100px;
+}
+
+.reputation { 
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    border: 1px solid gray;
+    width: 15%;
+    padding: 40px;
+}
+
+.immagineTesto  {
+    display: flex;
+    padding: 200px;
+}
+
+.immagineSx {
+    width: 65%;
+    background-image: url("./img/img1.png");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 49vh;
+}
+
+.testoDx {
+    width: 35%;
+    background-color: blue;
+    height: 45vh;
+    color: white;
+    padding: 20px;
+}
+
+button {
+    /* inserire lo stile per il bottone */
+    
+}
+
+.contenitore {
+    display: flex;
+    padding-bottom: 30px;
+    justify-content: space-around;
+}
+
+.seiQuadrati {
+    background-color: lightgray;
+}
